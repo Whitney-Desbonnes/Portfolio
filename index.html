@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
         
         <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
         
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
@@ -25,7 +25,7 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
                         <li class="nav__item">
-                            <a href="#home" class="nav__link">
+                            <a href="#home" class="nav__link active-link">
                                 <i class="uil uil-estate nav__icon"></i> Accueil
                             </a>
                         </li>
@@ -39,11 +39,11 @@
                                 <i class="uil uil-file-alt nav__icon"></i> Compétences
                             </a>
                         </li>
-                        <!-- <li class="nav__item">
-                            <a href="#services" class="nav__link">
-                                <i class="uil uil-briefcase-alt nav__icon"></i> Services
+                        <li class="nav__item">
+                            <a href="#experiences" class="nav__link">
+                                <i class="uil uil-bag nav__icon"></i> Expériences
                             </a>
-                        </li> -->
+                        </li>
                         <li class="nav__item">
                             <a href="#portfolio" class="nav__link">
                                 <i class="uil uil-scenery nav__icon"></i> Portfolio
@@ -59,6 +59,9 @@
                 </div>
 
                 <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
                     <div class="nav__toggle" id="nav-toggle">
                         <i class="uil uil-apps"></i>
                     </div>
@@ -104,6 +107,7 @@
                             <h1 class="home__title">Whitney DESBONNES</h1>
                             <h3 class="home__subtitle">Développeuse Front-End Junior</h3>
                             <p class="home__description">Débutante dans le domaine du développement front, je recherche une entreprise afin de poursuivre mes études en alternance.</p>
+                            <p class="home__description">Avertissement : Site en cours de production. <i class="uil uil-traffic-barrier home__icon"></i></p>
                             <a href="#contact" class="button button--flex">
                                 Contactez moi <i class="uil uil-message button__icon"></i>
                             </a>
@@ -113,7 +117,7 @@
                     <div class="home__scroll">
                         <a href="#about" class="home__scroll-button button--flex">
                             <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                            <span class="home__scroll-name">Défile vers le bas</span>
+                            <span class="home__scroll-name">Défilez vers le bas</span>
                             <i class="uil uil-arrow-down home__scroll-arrow"></i>
                         </a>
                     </div>
@@ -129,22 +133,28 @@
                     <img src="assets/img/about.jpg" alt="" class="about__img">
 
                     <div class="about__data">
-                        <p class="about__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem consequatur voluptate consequuntur nihil sunt aliquam soluta reiciendis qui aperiam reprehenderit. Voluptas officia natus sapiente obcaecati cum tempore possimus quia voluptatibus.</p>
+                        <p class="about__description">À la fin de mes études supérieures en comptabilité, j'ai décidé de me réorienter dans le domaine du développement web qui me passionnais déjà depuis quelque temps.</p>
+
+                        <p class="about__description">J'ai ensuite intégré l'école Webforce 3 où j'ai obtenu la certification d'intégratrice web.</p>
+
+                        <p class="about__description">Actuellement, je suis inscrite à l'école en ligne, Openclassrooms, pour suivre une formation de Développeur Front-End en alternance. Je suis donc en recherche active d'une entreprise qui pourrait m'accueillir pour la rentrée septembre/octobre 2021.</p>
+
+                        <p class="about__description">En attendant, je continue à me former, donc n'hésitez pas à consulter mes quelques projets personnels. Bonne visite !</p>
 
                         <div class="about__info">
                             <div>
-                                <span class="about__info-title">02+</span>
+                                <span class="about__info-title">03+</span>
                                 <span class="about__info-name">Projets <br> réalisés</span>
                             </div>
 
                             <div>
-                                <span class="about__info-title">02+</span>
+                                <span class="about__info-title">01+</span>
                                 <span class="about__info-name">Projets <br> en cours</span>
                             </div>
                         </div>
 
                         <div class="about__buttons">
-                            <a download="" href="assets/pdf/CV-WD-dev.pdf" class="button button--flex">
+                            <a download="" href="assets/pdf/CV-WD-dev.pdf" class="button button--flex" target="_blank">
                                 Télécharger CV <i class="uil uil-download-alt button__icon"></i>
                             </a>
                         </div>
@@ -161,7 +171,7 @@
                 <div class="skills__container container grid">
                     <div>
                         <!--==================== SKILLS 1 ====================-->
-                        <div class="skills__content skills__open">
+                        <div class="skills__content skills__close">
                             <div class="skills__header">
                                 <i class="uil uil-brackets-curly skills__icon"></i>
                                 
@@ -231,9 +241,11 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <!--==================== SKILLS 3 ====================-->
-                        <div class="skills__content skills__close">
+                    <div>
+                         <!--==================== SKILLS 3 ====================-->
+                         <div class="skills__content skills__close">
                             <div class="skills__header">
                                 <i class="uil uil-palette skills__icon"></i>
                                 
@@ -268,26 +280,22 @@
                             </div>
                         </div>
                     </div>
-
-                    <div>
-
-                    </div>
                 </div>
             </section>
 
             <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section">
+            <section class="qualification section" id="experiences">
                 <h2 class="section__title">Expériences</h2>
                 <span class="section__subtitle">Niveaux d'études / professionnel</span>
 
                 <div class="qualification__container container">
                     <div class="qualification__tabs">
-                        <div class="qualification__button button--flex">
+                        <div class="qualification__button button--flex" data-target='#education'>
                             <i class="uil uil-graduation-cap qualification__icon"></i>
                             Études
                         </div>
 
-                        <div class="qualification__button button--flex">
+                        <div class="qualification__button button--flex" data-target="#work">
                             <i class="uil uil-briefcase-alt qualification__icon"></i>
                             Professions
                         </div>
@@ -295,7 +303,7 @@
 
                     <div class="qualification__sections">
                         <!--==================== QUALIFICATION CONTENT 1 ====================-->
-                        <div class="qualification__content">
+                        <div class="qualification__content qualification__active" data-content id="education">
                             <!--==================== QUALIFICATION 1 ====================-->
                             <div class="qualification__data">
                                 <div>
@@ -334,7 +342,7 @@
                         </div>
 
                         <!--==================== QUALIFICATION CONTENT 2 ====================-->
-                        <div class="qualification__content">
+                        <div class="qualification__content" data-content id="work">
                             <!--==================== QUALIFICATION 1 ====================-->
                             <div class="qualification__data">
                                 <div>
@@ -375,48 +383,185 @@
                 </div>
             </section>
 
-            <!--==================== SERVICES ====================-->
-            <!-- <section class="services section" id="services">
-                
-
-            </section> -->
-
             <!--==================== PORTFOLIO ====================-->
             <section class="portfolio section" id="portfolio">
-                
+                <h2 class="section__title">Portfolio</h2>
+                <span class="section__subtitle">Prochainement</span>
 
-            </section>
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== PORTFOLIO 1 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
 
-            <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Landing Page</h3>
+                                <p class="portfolio__description">Un site adapté à tous les supports. Construit avec les langages HTML, CSS et JS</p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--==================== PORTFOLIO 2 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
 
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Landing Page</h3>
+                                <p class="portfolio__description">Un site One Page adapté à tous les supports. Construit avec les langages HTML, CSS et JS</p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--==================== PORTFOLIO 3 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
 
-            </section>
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Landing Page</h3>
+                                <p class="portfolio__description">Un site One Page adapté à tous les supports. Construit avec les langages HTML, CSS et JS</p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
 
-            <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
-                
+                    </div>
 
+                    <!-- Add Arrow -->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left swiper-portfolio-icon"></i>
+                    </div>
+
+                    <!-- Add pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
             </section>
 
             <!--==================== CONTACT ME ====================-->
             <section class="contact section" id="contact">
+                <h2 class="section__title">Contact</h2>
+                <span class="section__subtitle">Pour me contacter</span>
 
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Appelez-moi</h3>
+                                <span class="contact__subtitle">06 47 83 20 76</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <span class="contact__subtitle">whitney.desbonnes@gmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Localisation</h3>
+                                <span class="contact__subtitle">France - Seine-Saint-Denis (93)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Prénom</label>
+                                <input type="text" class="contact__input">
+                            </div>
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Email</label>
+                                <input type="email" class="contact__input">
+                            </div>
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Objet</label>
+                                <input type="text" class="contact__input">
+                            </div>
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Message</label>
+                                <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                            </div>
+
+                            <div>
+                                <a href="#" class="button button--flex">
+                                    Envoyer
+                                    <i class="uil uil-message button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
 
             </section>
         </main>
 
         <!--==================== FOOTER ====================-->
         <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Whitney</h1>
+                        <span class="footer__subtitle">Développeuse Front-End Junior</span>
+                    </div>
 
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#about" class="footer__link">À propos</a>
+                        </li>
+                        <li>
+                            <a href="#skills" class="footer__link">Compétences</a>
+                        </li>
+                        <li>
+                            <a href="#experiences" class="footer__link">Expériences</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="footer__link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer__link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://www.linkedin.com/in/wh15" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+
+                        <a href="https://github.com/Wii-hub" target="_blank" class="footer__social">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <p class="footer__copy">&#169; Bedimcode. All right reserved</p>
+
+            </div>
             
         </footer>
         
         <!--==================== SCROLL TOP ====================-->
-        
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
 
         <!--==================== SWIPER JS ====================-->
-        <script src=""></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
