@@ -12,6 +12,7 @@
   - [Ressources utiles](#ressources-utiles)
 - [Auteur](#auteur)
 - [Remerciements](#Remerciements)
+- [Youtube](#Youtube)
 
 
 ## Aperçu / Overview
@@ -19,13 +20,12 @@
 
 ### Le défi / The challenge
 
-- Afficher la mise en page optimale en fonction de la taille de l'écran de leur appareil
-- Voir les états de survol pour les éléments interactifs
+- Site Web de portfolio réactif utilisant Html, Css et JavaScript, avec une belle interface utilisateur.
 
 
 ### Capture d'écran / Screenshot
 
-![](screenshot.png)
+![](preview.png)
 
 
 ### Liens / Links
@@ -39,6 +39,8 @@
 - Balisage sémantique HTML5
 - Propriétés personnalisées CSS
 - Flexbox
+- Grid
+- Javascript
 
 
 ### Ce que j'ai appris / What I learned
@@ -56,7 +58,7 @@
 
 ### Poursuite du développement / Continued development
 
-Essayer de le refaire en utilisant grid.
+Essayer de le refaire sans l'aide du tutoriel.
 
 
 ### Ressources utiles / Useful resources
@@ -64,8 +66,10 @@ Essayer de le refaire en utilisant grid.
 
 ## Auteur / Author
 
-- Site Web - Whitney Desbonnes (https://whitney-desbonnes.github.io/Portfolio/)
-- Linkedin - Whitney Desbonnes (https://www.linkedin.com/in/wh15)
+- Chaîne Youtube - [Bedimcode](https://www.youtube.com/c/Bedimcode)
 
 
 ## Remerciements / Acknowledgments
+
+## Youtube
+- Lien vidéo du tutoriel - [Youtube](https://youtu.be/27JtRAI3QO8)
