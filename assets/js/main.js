@@ -78,7 +78,7 @@ let swiper = new Swiper(".portfolio__container", {
     loop: true,
 
     autoplay: {
-        delay: 2500,
+        delay: 4000,
         disableOnInteraction: false,
       },
 
