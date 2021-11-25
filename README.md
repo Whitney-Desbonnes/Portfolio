@@ -19,12 +19,13 @@
 
 ### Le défi / The challenge
 
-- Site Web de portfolio réactif utilisant Html, Css et JavaScript, avec une belle interface utilisateur.
+- Afficher la mise en page optimale en fonction de la taille de l'écran de leur appareil
+- Voir les états de survol pour les éléments interactifs
 
 
 ### Capture d'écran / Screenshot
 
-![](preview.png)
+![](screenshot.png)
 
 
 ### Liens / Links
@@ -38,8 +39,6 @@
 - Balisage sémantique HTML5
 - Propriétés personnalisées CSS
 - Flexbox
-- Grid
-- Javascript
 
 
 ### Ce que j'ai appris / What I learned
@@ -57,7 +56,7 @@
 
 ### Poursuite du développement / Continued development
 
-Essayer de le refaire sans l'aide du tutoriel.
+Essayer de le refaire en utilisant grid.
 
 
 ### Ressources utiles / Useful resources
@@ -65,10 +64,8 @@ Essayer de le refaire sans l'aide du tutoriel.
 
 ## Auteur / Author
 
-- Site Web - [Bedimcode](https://www.youtube.com/c/Bedimcode)
+- Site Web - Whitney Desbonnes (https://whitney-desbonnes.github.io/Portfolio/)
+- Linkedin - Whitney Desbonnes (https://www.linkedin.com/in/wh15)
 
 
 ## Remerciements / Acknowledgments
-
-
-## [Watch it on youtube](https://youtu.be/27JtRAI3QO8)
