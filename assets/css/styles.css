@@ -6,7 +6,7 @@
     --header-height: 3rem;
 
     /*========== Colors ==========*/
-    --hue-color: 200;
+    --hue-color: 400;
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -395,8 +395,16 @@ header{
     margin-bottom: var(--mb-1);
 }
 
-.about__description:nth-child(4){
+.about__description:nth-child(5){
     margin-bottom: var(--mb-2-5);
+}
+
+.about__link {
+    color: var(--first-color);
+}
+
+.about__link:hover {
+    color: var(--first-color-alt);
 }
 
 .about__info{
@@ -668,6 +676,11 @@ header{
 /*==================== CONTACT ME ====================*/
 .contact__container{
     row-gap: 3rem;
+    grid-template-columns: 1fr!important;
+}
+
+.contact__container > div {
+    margin: auto;
 }
 
 .contact__information{
