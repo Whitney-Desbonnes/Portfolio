@@ -276,7 +276,6 @@ header{
 
 .home__content{
     grid-template-columns: 1fr 100fr;
-    /*padding-top: 3.5rem;*/
     align-items: center;
 }
 
@@ -838,7 +837,6 @@ header{
     }
     .nav__list {
         column-gap: 0;
-        /* gap: 0.5rem; */
     }
 
     .home__content{
@@ -864,9 +862,6 @@ header{
 
 /* For medium devices */
 @media screen and (min-width: 568px){
-    /* .home__content{
-        grid-template-columns: max-content 1fr 1fr;
-    } */
     .home__data{
         grid-column: initial;
     }
@@ -875,7 +870,6 @@ header{
         justify-self: center;
     }
 
-    /*.about__container,*/
     .skills__container,
     .portfolio__content,
     .contact__container,
