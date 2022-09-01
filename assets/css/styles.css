@@ -275,8 +275,8 @@ header{
 }
 
 .home__content{
-    grid-template-columns: .5fr 3fr;
-    padding-top: 3.5rem;
+    grid-template-columns: 1fr 100fr;
+    /*padding-top: 3.5rem;*/
     align-items: center;
 }
 
@@ -864,9 +864,9 @@ header{
 
 /* For medium devices */
 @media screen and (min-width: 568px){
-    .home__content{
+    /* .home__content{
         grid-template-columns: max-content 1fr 1fr;
-    }
+    } */
     .home__data{
         grid-column: initial;
     }
@@ -875,7 +875,7 @@ header{
         justify-self: center;
     }
 
-    .about__container,
+    /*.about__container,*/
     .skills__container,
     .portfolio__content,
     .contact__container,
@@ -939,7 +939,7 @@ header{
     }
 
     .home__container{
-        row-gap: 5rem;
+        row-gap: 2rem;
     }
     .home__content{
         padding-top: 5.5rem;
@@ -950,6 +950,7 @@ header{
     }
     .home__scroll{
         display: block;
+        margin: auto;
     }
     .home__scroll-button{
         margin-left: 3rem;
