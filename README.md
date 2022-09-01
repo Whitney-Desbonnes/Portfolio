@@ -58,7 +58,7 @@
 
 ### Poursuite du développement / Continued development
 
-Essayer de le refaire sans l'aide du tutoriel.
+
 
 
 ### Ressources utiles / Useful resources
