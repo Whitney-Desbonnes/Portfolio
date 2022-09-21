@@ -6,7 +6,7 @@
     --header-height: 3rem;
 
     /*========== Colors ==========*/
-    --hue-color: 200;
+    --hue-color: 300;
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -434,6 +434,11 @@ header{
 }
 
 /*==================== SKILLS ====================*/
+
+.skills.section {
+    padding-top: 6rem;
+}
+
 .skills__container{
     row-gap: 0;
 }
@@ -962,8 +967,9 @@ header{
     .about__info{
         justify-content: space-around;
     }
-    .about__buttons{
-        justify-content: initial;
+
+    .skills.section {
+        padding-top: 12rem;
     }
 
     .qualifiaction__tabs{
